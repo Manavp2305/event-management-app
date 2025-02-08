@@ -1,0 +1,150 @@
+.first > img {
+    width: 100vw;
+    margin-top: 50px;
+    height: auto;
+}
+.first {
+    position: relative;
+}
+.text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.all {
+    color: #efecec;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.har {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.text h3,
+.text p {
+    margin-top: 1rem;
+}
+.text p {
+    font-size: 16px;
+}
+.ab {
+    font-size: 24px;
+    color: #f8e704;
+    font-weight: bold;
+}
+.bc {
+    color: #fff;
+    margin-top: -10px;
+}
+.imgrid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100vw;
+    gap: 10px;
+    background-color: #0c0817;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card > img {
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+.card {
+    position: relative;
+    transition: 0.3s;
+}
+.card .tr {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.card:hover .tr {
+    display: block;
+}
+.location > p {
+    text-align: center;
+    margin-top: 20px;
+}
+.location > iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+.off {
+    position: relative;
+    margin-top: 20px;
+}
+.off .imgcontainer 
+{
+    height: 500px;
+    width: 100vw;
+}
+
+.offer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.offer > p {
+    font-size: xx-large;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.offer > button {
+    width: 180px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: orange;
+    border: 0;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+@media (max-width: 600px) {
+    .text {
+        top: 40%;
+    }
+    .all {
+        font-size: 18px;
+    }
+    .har,
+    .ab {
+        font-size: 20px;
+    }
+    .bc {
+        font-size: 12px;
+    }
+    .imgrid {
+        grid-template-columns: 1fr;
+    }
+    .offer > p {
+        font-size: large;
+    }
+}

@@ -1,0 +1,51 @@
+.foot{
+  margin-top: -35px; 
+  height: 750px;
+  width: 100vw;
+  background: linear-gradient(to bottom,#11293d 10%,#06022f);
+}
+
+h1 {
+  background: linear-gradient(to right, #a74ef4,#f59074);
+  -webkit-text-fill-color: transparent; 
+   -webkit-background-clip: text;
+   text-align: center;
+   font-size: 50px;
+   padding: 25px;
+}
+.Req{
+  margin-left: 43%;
+  cursor: pointer;
+  color: white; width: 200px;
+  background: #11293d;
+  border: solid 1px white;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.Req:hover{
+  background: #06022f;
+  color: yellow;
+}
+.reac{
+  width: 100px;
+}
+ul{
+  list-style-type: none;
+}
+.midcon{
+  margin-top: 100px;
+  display: flex;color: white;
+  justify-content: space-around;
+}
+.fin{
+  color: white;
+  margin-top: 50px;
+  margin-left: 103px;
+}
+.cpy{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}

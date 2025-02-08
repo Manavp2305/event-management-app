@@ -1,0 +1,129 @@
+/* *
+{
+    overflow-x: hidden;
+} */
+.con {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../assets/backgrond image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+.text-block {
+    position: absolute;
+    top: 175px;
+    left: 40px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heading-1 {
+    font-size: 60px;
+    width: 500px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.content {
+    width: 400px;
+    font-size: large;
+    text-align: justify;
+    opacity: 70%;
+    color: white;
+}
+
+.input-button-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.inputHome {
+    display: flex;
+    background-color: #152238;
+    height: 30px;
+    width: 400px;
+    box-shadow: none;
+    margin-top: 100px;
+    margin-left: -1200px; 
+    border-radius: 5px;
+    color: white;
+}
+
+.btnHome {
+    background-color: orangered;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 10px; 
+    width: 150px;
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+.btnHome:hover {
+    transition: 50ms;
+    background-color: #ff6b08;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    display: inline;
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    border-color: white;
+    border: solid;
+}
+
+.avatar:hover {
+    border-color: orangered;
+    height: 25px;
+    width: 25px;
+    z-index: 1;
+}
+
+.avatar+.avatar {
+    margin-left: -13px;
+}
+
+.last {
+    display: inline;
+    opacity: 70%;
+    font-size: small;
+    margin-left: 3px;
+}
+
+.content2 {
+    width: 60%;
+}
+
+.button {
+    width: 200px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#views {
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: orange;
+    border-radius: 5px;
+    height: 40px;
+    width: 80%;
+}

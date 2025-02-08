@@ -1,0 +1,104 @@
+.Conatiner{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Mount{
+    width: 100VW;
+    height: 250px;
+    opacity: 60%;
+    margin-top: 70px;
+}
+
+.text{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.span1{
+    color: rgb(47, 47, 234);
+}
+
+.cont{
+    width: 94vw;
+    padding: 40px;
+    height: 500px;
+    background: linear-gradient(to right,#14324b 5%,#01000d);
+}
+
+.CP{
+    font-size: 25px;
+    color: white;
+}
+
+.para{
+    font-size: 40px;
+    color: white;
+}
+
+.span2{
+    font-weight: bolder;
+    /* color: rgb(47, 47, 234); */
+    color: orange;
+}
+
+.inputcnt{
+    display: inline;
+    margin-right: 50px;
+    width: 650px;
+    height: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding-left: 3px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.inputcnt:hover{
+    border-color: aqua;
+}
+
+.inputcnt:focus {
+    border-color: aqua;
+    outline: none;
+}
+
+textarea{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid;
+}
+
+textarea:hover{
+    border-color: aqua;
+}
+
+textarea:focus {
+    border-color: aqua;
+    outline: none;
+}
+
+.btncontact{
+    margin-top: 30px;
+    margin-bottom: 3px;
+    width: 125px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 45%;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+}
+
+.btncontact:hover{
+    transition: 50ms;
+    background-color: orange;
+    border: 2px solid white;
+    color: black;
+}

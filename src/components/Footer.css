@@ -1,0 +1,85 @@
+.foot {
+  height: auto; /* Allow height to adjust based on content */
+  min-height: 400px; /* Set a minimum height if needed */
+  width: 100vw;
+  background: linear-gradient(to bottom, #11293d 10%, #06022f);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background: linear-gradient(to right, #a74ef4, #f59074);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-size: 40px; /* Reduce font size if needed */
+  margin-bottom: 20px;
+}
+
+.Req {
+  display: block;
+  margin: 10px auto; /* Center the button */
+  cursor: pointer;
+  color: white;
+  width: 200px;
+  background: #11293d;
+  border: solid 1px white;
+  height: 40px; /* Reduce button height if needed */
+  font-size: 14px; /* Reduce font size if needed */
+  text-align: center;
+  line-height: 40px;
+}
+
+.reac {
+  width: 80px; /* Adjust width if needed */
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.midcon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  margin-top: 20px; /* Adjust margin if needed */
+}
+
+.midcon > div {
+  flex: 1;
+  margin: 10px; /* Adjust spacing between columns */
+  min-width: 150px; /* Ensure columns have a minimum width */
+}
+
+.fin {
+  margin-top: 20px; /* Adjust margin if needed */
+}
+
+.gpt {
+  text-align: center;
+  margin-top: 40px; /* Adjust margin if needed */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+  .Req {
+    width: 100%;
+    font-size: 16px; 
+  }
+  
+  .midcon {
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .midcon > div {
+    margin: 10px 0; 
+  }
+}

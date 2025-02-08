@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+
+.text {
+    padding: 20px;
+}
+
+.text .all, .text .aa, .text .bc {
+    margin: 10px 0;
+}
+
+
+.eve {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.eventname {
+    flex: 1 1 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 300px; 
+}
+
+.eventimage img {
+    width: 100%;
+    height: auto;
+}
+
+.evdate {
+    width: 225px;
+    font-size: small;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+    padding: 5px 0;
+}
+
+.evdetails {
+    width: 225px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #d1cdcdab;
+    text-align: center;
+}
+
+.evdetails h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    .eventname {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventname {
+        flex: 1 1 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .eventname {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+
+    .evdetails {
+        font-size: 0.8rem;
+    }
+}
